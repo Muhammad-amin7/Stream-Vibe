@@ -10,7 +10,6 @@ const images = Object.entries(imageModules).map(([path, module], index) => ({
 
 
 export default function HeaderBackground() {
-      // Ikkilantirish orqali loop effekt hosil qilamiz
       const firstRow = [...images.slice(0, 8), ...images.slice(0, 8), ...images.slice(0, 8), ...images.slice(0, 8)]
       const secondRow = [...images.slice(8, 16), ...images.slice(8, 16), ...images.slice(8, 16), ...images.slice(8, 16)]
       const threeRow = [...images.slice(16, 24), ...images.slice(16, 24), ...images.slice(16, 24), ...images.slice(16, 24)]
