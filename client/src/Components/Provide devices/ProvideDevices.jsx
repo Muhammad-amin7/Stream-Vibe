@@ -20,7 +20,7 @@ export default function ProvideDevices() {
 
       return (
             <section>
-                  <div className='w-9/10 lg:w-4/5 m-auto mt-40'>
+                  <div className='w-9/10 lg:w-4/5 m-auto mt-12 lg:mt-30 2xl:mt-40'>
                         {/* top || title */}
                         <div>
                               <h1 className='text-xl lg:text-3xl 2xl:text-4xl text-white font-bold mb-2.5 lg:mb-3.5'>We Provide you streaming experience across various devices.</h1>

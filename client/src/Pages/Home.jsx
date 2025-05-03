@@ -4,6 +4,7 @@ import Slider from '../Layouts/Slider'
 import { categoriesdata } from '../Constants/data'
 import HeaderBackground from '../Components/HeaderBackground/HeaderBackground'
 import ProvideDevices from '../Components/Provide devices/ProvideDevices'
+import AskedQuestions from '../Components/Asked questions/AskedQuestions'
 
 export default function Home() {
       return (
@@ -17,6 +18,7 @@ export default function Home() {
                   </Slider>
                   <HeaderBackground />
                   <ProvideDevices />
+                  <AskedQuestions />
             </>
       )
 }
