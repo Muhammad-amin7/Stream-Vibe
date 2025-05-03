@@ -5,6 +5,7 @@ import { categoriesdata } from '../Constants/data'
 import HeaderBackground from '../Components/HeaderBackground/HeaderBackground'
 import ProvideDevices from '../Components/Provide devices/ProvideDevices'
 import AskedQuestions from '../Components/Asked questions/AskedQuestions'
+import PlansAndPrice from '../Components/PlansAndPrice/PlansAndPrice'
 
 export default function Home() {
       return (
@@ -19,6 +20,7 @@ export default function Home() {
                   <HeaderBackground />
                   <ProvideDevices />
                   <AskedQuestions />
+                  <PlansAndPrice />
             </>
       )
 }

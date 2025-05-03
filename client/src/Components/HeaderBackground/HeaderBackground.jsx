@@ -18,7 +18,7 @@ export default function HeaderBackground() {
 
 
       return (
-            <div className="h-[80vh] lg:h-screen w-screen overflow-hidden space-y-6 absolute top-0 left-0 z-[-1]  flex flex-col items-stretch bg-[#141414]">
+            <div className="h-[100vh] lg:h-screen w-screen overflow-hidden space-y-6 absolute top-0 left-0 z-[-1]  flex flex-col items-stretch bg-[#141414]">
                   <div className='w-full h-full bg-[rgba(0,0,0,0.5)] absolute top-0 left-0 z-[1]'></div>
                   <div className="flex animate-scroll-left h-2/9 gap-4 w-max" style={{ animationDuration: "62s" }}>
                         {firstRow.map((item, index) => (

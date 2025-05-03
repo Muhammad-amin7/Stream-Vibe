@@ -28,7 +28,7 @@ export default function ProvideDevices() {
                         </div>
 
                         {/* bottom || content */}
-                        <div className='mt-10 lg:mt-15 2xl:mt-20 grid grid-cols-1 2xl:grid-cols-3 gap-5 2xl:gap-7.5'>
+                        <div className='mt-10 lg:mt-15 2xl:mt-20 grid grid-cols-1 lg:grid-cols-3 gap-5 2xl:gap-7.5'>
                               {devicesdata.map(({ id, title, img, description }) => {
                                     return <div key={id} className="p-6 lg:p-10 2xl:p-12.5 rounded-xl bg-[linear-gradient(0deg,#0F0F0F,#0F0F0F),linear-gradient(221.52deg,rgba(229,0,0,0.5)-208.03%,rgba(229,0,0,0)41.32%)]" >
                                           <div className='flex items-center gap-4 mb-7 lg:mb-7.5'>

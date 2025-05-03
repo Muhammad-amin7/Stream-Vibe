@@ -11,7 +11,7 @@ export default function Header() {
                               <img src={logo} alt="Abstract Design" />
                         </div>
 
-                        <div className='-bottom-[20%] w-[90%] lg:w-[60%] absolute flex flex-col items-center text-center'>
+                        <div className='-bottom-[100px] w-[90%] lg:w-[60%] absolute flex flex-col items-center text-center'>
                               <h1 className='text-2xl lg:text-5xl 2xl:text-6xl mb-3.5 text-white font-bold'>
                                     The Best Streaming Experience
                               </h1>
