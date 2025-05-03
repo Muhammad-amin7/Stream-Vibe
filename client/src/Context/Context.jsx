@@ -1,12 +1,12 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 export const Context = createContext();
 
 export const MyContextProvider = ({ children }) => {
-
+      const [logined, setLogined] = useState(false)
 
       return (
-            <Context.Provider value={{}}>
+            <Context.Provider value={{ logined, setLogined }}>
                   {children}
             </Context.Provider>
       );

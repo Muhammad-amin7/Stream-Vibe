@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import Header from '../Components/Header (home)/Header'
 import Slider from '../Layouts/Slider'
 import { categoriesdata } from '../Constants/data'
@@ -6,8 +6,11 @@ import HeaderBackground from '../Components/HeaderBackground/HeaderBackground'
 import ProvideDevices from '../Components/Provide devices/ProvideDevices'
 import AskedQuestions from '../Components/Asked questions/AskedQuestions'
 import PlansAndPrice from '../Components/PlansAndPrice/PlansAndPrice'
+import FreeToday from '../Components/Free Today/FreeToday'
+import { Context } from '../Context/Context'
 
 export default function Home() {
+      const { logined } = useContext(Context)
       return (
             <>
                   <Header />
@@ -21,6 +24,7 @@ export default function Home() {
                   <ProvideDevices />
                   <AskedQuestions />
                   <PlansAndPrice />
+                  {!logined && <FreeToday />}
             </>
       )
 }
