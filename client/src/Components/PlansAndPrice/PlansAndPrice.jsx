@@ -12,7 +12,7 @@ export default function PlansAndPrice() {
       ]
 
       return (
-            <section>
+            <section id='pricing'>
                   <div className='w-9/10 lg:w-4/5 m-auto mt-12 lg:mt-30 2xl:mt-40'>
                         {/* top || title */}
                         <div className='lg:flex justify-between'>

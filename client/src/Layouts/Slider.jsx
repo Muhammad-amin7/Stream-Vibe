@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
-export default function Slider({ title, subtitle, data, className }) {
+export default function Slider({ title, subtitle, data, className, id }) {
       const [showItems, setShowItems] = useState(5)
       const [activeItem, setActiveItem] = useState(0)
 
@@ -60,7 +60,7 @@ export default function Slider({ title, subtitle, data, className }) {
             )
 
       return (
-            <div className={`w-screen ${className}`}>
+            <div className={`w-screen ${className}`} id={id}>
                   <div className='w-9/10 lg:w-4/5 m-auto'>
                         {/* top */}
                         <div className='lg:flex justify-between items-end'>

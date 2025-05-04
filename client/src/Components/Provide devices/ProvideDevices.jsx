@@ -19,7 +19,7 @@ export default function ProvideDevices() {
       ]
 
       return (
-            <section>
+            <section id='devices'>
                   <div className='w-9/10 lg:w-4/5 m-auto mt-12 lg:mt-30 2xl:mt-40'>
                         {/* top || title */}
                         <div>
@@ -30,7 +30,7 @@ export default function ProvideDevices() {
                         {/* bottom || content */}
                         <div className='mt-10 lg:mt-15 2xl:mt-20 grid grid-cols-1 lg:grid-cols-3 gap-5 2xl:gap-7.5'>
                               {devicesdata.map(({ id, title, img, description }) => {
-                                    return <div key={id} className="p-6 lg:p-10 2xl:p-12.5 rounded-xl bg-[linear-gradient(0deg,#0F0F0F,#0F0F0F),linear-gradient(221.52deg,rgba(229,0,0,0.5)-208.03%,rgba(229,0,0,0)41.32%)]" >
+                                    return <div key={id} className="p-6 lg:p-10 2xl:p-12.5 rounded-xl handlelinear" >
                                           <div className='flex items-center gap-4 mb-7 lg:mb-7.5'>
                                                 <div className='p-2 lg:p-4 rounded-xl bg-[#141414] border-1 border-[#1F1F1F]'><img src={img} alt="" className='w-5 lg:w-7.5 2xl:w-10 aspect-square' /></div>
                                                 <h2 className='text-lg lg:text-xl 2xl:text-2xl font-semibold text-white'>{title}</h2>
